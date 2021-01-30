@@ -10,10 +10,11 @@ function Movie({title, year, image, rating, summary, genres}){
                 <h3 className="movie__data__title_year">{title}({year})</h3>
                 <h4 className="movie__data__rating">{rating}/10점</h4>
                 <ui className="genres">{genres.map((genre, index) => (
-                    <li key={index} className="genres_genre">{genre}</li>
+                    <li key={index} className="genres_genre"> ㆍ{genre} </li>
                 ))}
                 </ui>
-                <p className="movie__data__summary">{summary}</p>
+                <br />
+                <p className="movie__data__summary">{summary.slice(0, 180)}...</p>
             </div>
             
         </div>
