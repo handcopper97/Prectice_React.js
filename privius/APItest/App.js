@@ -1,51 +1,3 @@
-
-import axios from 'axios';
-import React from 'react';
-import Movie from './Movie';
-import "./App.css";
-
-class App extends React.Component{
-  state = {
-    isLoading:true,
-    movies:[]
-  };
-  getMovies = async () => {
-    const {data:{data:{movies}}} = await axios.get("https://yts-proxy.now.sh/list_movies.json?sort_by=rating")
-    this.setState({movies:movies, isLoading:false})
-  };
-  componentDidMount(){
-    this.getMovies();
-    
-  }
-  render(){
-      const {isLoading, movies}=this.state;
-      return <section class="container">
-      {isLoading ? (
-        <div class="loader">
-          <span class="loader__text">Loading...</span>
-        </div>
-      ) : (
-        <div class="movies">
-         { movies.map(movies => 
-         (
-           <Movie 
-             key={movies.id} 
-             title={movies.title} 
-             year={movies.year} 
-             image={movies.medium_cover_image} 
-             rating={movies.rating} 
-             summary={movies.summary}
-          /> 
-         ))}
-        </div>
-        )}
-      </section>
-      }
-}
-
-export default App;
-/*
-
 import axios from 'axios';
 import React from 'react';
 import Movie from './Movie';
@@ -83,12 +35,6 @@ class App extends React.Component{
 }
 
 export default App;
-*/
-
-
-
-
-
 
 /* //원래 creat하면 나오는 app.js 내용
 import logo from './logo.svg';
