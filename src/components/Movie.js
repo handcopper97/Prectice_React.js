@@ -3,16 +3,17 @@ import Proptypes from 'prop-types';
 import "./Movie.css";
 
 function Movie({title, year, image, rating, summary, genres}){
+    console.log("Movies실행됨");
     return (
         <div className="movie">
             <img src={image} title={title} alt={title} />
             <div className="movie__data">
                 <h3 className="movie__data__title_year">{title}({year})</h3>
                 <h4 className="movie__data__rating">{rating}/10점</h4>
-                <ui className="genres">{genres.map((genre, index) => (
+                <ul className="genres">{genres.map((genre, index) => (
                     <li key={index} className="genres_genre"> ㆍ{genre} </li>
                 ))}
-                </ui>
+                </ul>
                 <br />
                 <p className="movie__data__summary">{summary.slice(0, 180)}...</p>
             </div>
