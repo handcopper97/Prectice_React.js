@@ -17,7 +17,6 @@ class Home extends React.Component{
     
   }
   render(){
-    console.log("Home실행됨");
       const {isLoading, movies}=this.state;
       return <section className="container">
       {isLoading ? (
