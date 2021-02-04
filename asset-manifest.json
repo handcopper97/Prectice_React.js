@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Prectice_React.js/static/css/main.0eef17d8.chunk.css",
-    "main.js": "/Prectice_React.js/static/js/main.c8194838.chunk.js",
-    "main.js.map": "/Prectice_React.js/static/js/main.c8194838.chunk.js.map",
+    "main.css": "/Prectice_React.js/static/css/main.e1a49079.chunk.css",
+    "main.js": "/Prectice_React.js/static/js/main.27ee56cd.chunk.js",
+    "main.js.map": "/Prectice_React.js/static/js/main.27ee56cd.chunk.js.map",
     "runtime-main.js": "/Prectice_React.js/static/js/runtime-main.7b9174ee.js",
     "runtime-main.js.map": "/Prectice_React.js/static/js/runtime-main.7b9174ee.js.map",
     "static/js/2.1fedbc78.chunk.js": "/Prectice_React.js/static/js/2.1fedbc78.chunk.js",
     "static/js/2.1fedbc78.chunk.js.map": "/Prectice_React.js/static/js/2.1fedbc78.chunk.js.map",
     "index.html": "/Prectice_React.js/index.html",
-    "static/css/main.0eef17d8.chunk.css.map": "/Prectice_React.js/static/css/main.0eef17d8.chunk.css.map",
+    "static/css/main.e1a49079.chunk.css.map": "/Prectice_React.js/static/css/main.e1a49079.chunk.css.map",
     "static/js/2.1fedbc78.chunk.js.LICENSE.txt": "/Prectice_React.js/static/js/2.1fedbc78.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7b9174ee.js",
     "static/js/2.1fedbc78.chunk.js",
-    "static/css/main.0eef17d8.chunk.css",
-    "static/js/main.c8194838.chunk.js"
+    "static/css/main.e1a49079.chunk.css",
+    "static/js/main.27ee56cd.chunk.js"
   ]
 }
