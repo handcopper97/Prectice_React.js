@@ -9,11 +9,11 @@ import './App.css'
 function App(){
     return (
       <HashRouter>
-        <Navigation />
+        <Navigation>
+        </Navigation>
         <Route path="/" exact={true} component={Home} />
         <Route path="/About" exact={true} component={About}/>
         <Route path="/movie/:id" exact={true} component={Detail}/>
-        
       </HashRouter>
       );
 }
